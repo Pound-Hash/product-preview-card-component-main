@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url('fonts/Fraunces-Bold.woff2') format('woff2'),
+        url('fonts/Fraunces-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: swap;
+}
+
+body {
+  background: hsl(30, 38%, 92%);
+  padding: 4vh 4vw;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: .5rem .5rem 0 0;
+}
+
+.text {
+  background: hsl(0, 0%, 100%);
+  padding-left: 7%;
+  padding-right: 7%;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.leading {
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: .73rem;
+  letter-spacing: .3rem;
+  margin-top: 8%;
+  margin-bottom: 0;
+}
+
+.name {
+  color: hsl(212, 21%, 14%);
+  font-family: 'Fraunces';
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-top: 4%;
+  margin-bottom: 0;
+  line-height: 1.6rem;
+}
+
+.description {
+  color: hsl(228, 12%, 48%);
+  font-size: .88rem;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  margin-top: 5%;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.prices {
+  display: flex;
+  gap: 7%;
+  max-height: 4rem;
+  align-items: center;
+}
+
+.price_low {
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces';
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.price_high {
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: .73rem;
+}
+
+.cart {
+  color: hsl(30, 38%, 92%);
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: .88rem;
+  text-align: center;
+  border-radius: .5rem .5rem .5rem .5rem;
+  margin-top: 0;
+  margin-bottom: 7%;
+  padding: 1rem 0;
+  background:
+    url(./images/icon-cart.svg)
+    calc(50% - 7ch)
+    no-repeat
+    content-box
+    border-box
+    hsl(158, 36%, 37%);
+}
+
+.attribution {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: .73rem;
+  text-align: center;
+}
+
+.attribution p {
+  margin: 1rem 0 0;
+}
+
+.attribution a {
+  color: #C2554F;
+  text-decoration: none;
+}
+
