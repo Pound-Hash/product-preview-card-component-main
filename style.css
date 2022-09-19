@@ -65,7 +65,7 @@ img {
   color: hsl(212, 21%, 14%);
   font-family: 'Fraunces';
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-top: 5%;
   margin-bottom: 0;
   line-height: 2rem;
@@ -214,6 +214,17 @@ img {
 
   .attribution p {
     display: block;
+  }
+
+  .name {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1338px) {
+  .name {
+    font-size: 2rem;
   }
 }
 
