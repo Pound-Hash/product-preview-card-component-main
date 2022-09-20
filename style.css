@@ -32,7 +32,7 @@ body {
   margin: 0;
 }
 
-section {
+main {
   display: flex;
   flex-direction: column;
 }
@@ -147,7 +147,7 @@ img {
     padding: 22vh 29vw;
   }
 
-  section {
+  main {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   }
