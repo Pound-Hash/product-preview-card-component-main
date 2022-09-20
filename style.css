@@ -121,7 +121,7 @@ img {
     hsl(158, 36%, 37%);
 }
 
-.cart:hover {
+.cart:hover, .cart:focus {
   background-color: hsl(158, 46%, 17%);
 } 
 
